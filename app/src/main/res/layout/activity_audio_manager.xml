@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context="com.fiqri.intentimplicitapp.AudioManagerActivity">
+
+    <Button
+        android:id="@+id/btnRing"
+        android:text="Ring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Silent"
+        android:id="@+id/btnSilent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Vibrate"
+        android:id="@+id/btnVibrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Mute"
+        android:id="@+id/btnMute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Mode"
+        android:id="@+id/btnMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
